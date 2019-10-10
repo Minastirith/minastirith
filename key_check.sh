@@ -6,7 +6,7 @@ read SCAN_PATH
 
 find ${SCAN_PATH} -name "authorized_keys" -or -name "*.pub" -type f > key_list 2>/dev/mull
 
-# Checking SSH keys strength LAST
+# Checking
 while read line
 do
 
